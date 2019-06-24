@@ -1,8 +1,10 @@
 require('../src/data.js');
 
 
-describe('example', () => {
-  it('is a function', () => {
+
+describe('dataLovers', () => {
+  
+  it('deberia ser un objeto', () => {
     expect(typeof example.example).toBe('function');
   });
 
@@ -11,6 +13,13 @@ describe('example', () => {
   });
 });
 
+
+describe('filtrado', () => {
+  it('is a function', () => {
+    expect(typeof example.filtrado).toBe('function');
+    });
+
   it('returns `mostrar`', () => {
     expect(mostrar.mostrar()).toBe('mostrar');
 });
+
