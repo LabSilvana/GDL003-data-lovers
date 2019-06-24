@@ -10,10 +10,17 @@ const sortBY = () => {
 };
 
 const filtrado = () => {
-  returno 'filtrado';
+  return 'filtrado';
+};
+
+const mostrar = () => {
+  return 'mostrar';
+
 };
 
 window.example = {
   example,
-  filtrado
+  filtrado,
+  mostrar
 };
+
