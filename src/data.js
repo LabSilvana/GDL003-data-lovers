@@ -1,16 +1,20 @@
+import RICKANDMORTY  from './data/rickandmorty/rickandmorty';
+
 // esta es una función de ejemplo
 // puedes ver como agregamos la función a nuestro objeto global window
 
 const data = () => {
-  return 'rickandmorty.js';
+  return RICKANDMORTY;
 };
 
 const sortBY = () => {
-  return '';
+  return 12;
 };
 
-const filtrado = () => {
-  return 'filtrado';
+const filterData = (data, condition) => {
+  return data.filter(item => {
+    return item == condition;
+  });
 };
 
 const mostrar = () => {
@@ -18,9 +22,5 @@ const mostrar = () => {
 
 };
 
-window.example = {
-  example,
-  filtrado,
-  mostrar
-};
+export { data, sortBY, filterData, mostrar };
 

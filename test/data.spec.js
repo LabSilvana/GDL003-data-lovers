@@ -1,25 +1,14 @@
-require('../src/data.js');
+import { data } from './../src/data';
 
-
-
-describe('dataLovers', () => {
+describe('describir el funcionamiento de la funcion data', () => {
   
-  it('deberia ser un objeto', () => {
-    expect(typeof example.example).toBe('function');
+  it('data debe ser una funcion', () => {
+    expect(typeof data).toBe("function");
   });
 
-  it('returns `example`', () => {
-    expect(example.example()).toBe('example');
+  it('data debe regresar un objeto json', () => {
+    expect(typeof data()).toBe("object");
   });
-});
 
-
-describe('filtrado', () => {
-  it('is a function', () => {
-    expect(typeof example.filtrado).toBe('function');
-    });
-
-  it('returns `mostrar`', () => {
-    expect(mostrar.mostrar()).toBe('mostrar');
 });
 
