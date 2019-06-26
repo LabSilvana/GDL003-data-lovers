@@ -1,10 +1,10 @@
-import RICKANDMORTY  from './data/rickandmorty/rickandmorty';
+import RICKANDMORTY  from './data/rickandmorty/rickandmorty.js';
 
 // esta es una función de ejemplo
 // puedes ver como agregamos la función a nuestro objeto global window
 
 const data = () => {
-  return RICKANDMORTY;
+  return RICKANDMORTY.results;
 };
 
 const sortBY = () => {
@@ -13,14 +13,14 @@ const sortBY = () => {
 
 const filterData = (data, condition) => {
   return data.filter(item => {
-    return item == condition;
+    return item.gender === condition;
   });
 };
 
-const mostrar = () => {
-  return 'mostrar';
+const computeStats = (data) => {
+  return data;
 
 };
 
-export { data, sortBY, filterData, mostrar };
+export { data, sortBY, filterData, computeStats };
 
