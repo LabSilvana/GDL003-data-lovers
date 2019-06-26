@@ -3,6 +3,7 @@ import RICKANDMORTY  from './data/rickandmorty/rickandmorty.js';
 // esta es una función de ejemplo
 // puedes ver como agregamos la función a nuestro objeto global window
 
+
 const data = () => {
   return RICKANDMORTY.results;
 };
@@ -21,6 +22,7 @@ const computeStats = (data) => {
   return data;
 
 };
+
 
 export { data, sortBY, filterData, computeStats };
 
