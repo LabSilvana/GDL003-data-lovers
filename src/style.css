@@ -1,0 +1,31 @@
+#boton_agujerito{
+    background-color:transparent;
+    background-image: url("https://media2.giphy.com/media/i2tLw5ZyikSFdkeGHT/giphy.gif");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    border: none;
+    margin-left: 500px;
+}
+.pantallaInicio{
+    background-image: url("https://www.hdwallpaper.nu/wp-content/uploads/2018/11/rick_and_morty-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#tituloRick{
+    margin-left: 450px;
+}
+.pantallaPresentacion{
+    background-image: url("http://pavbca.com/walldb/original/3/5/d/53899.jpg");
+}
+#tituloRickAndMorty{
+    margin-left: 450px;
+}
+#introduccion{
+    color:white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
