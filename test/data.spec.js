@@ -1,25 +1,38 @@
-require('../src/data.js');
+import { data, filterData } from './../src/data';
 
-
-
-describe('dataLovers', () => {
+describe('describir el funcionamiento de la funcion data', () => {
   
-  it('deberia ser un objeto', () => {
-    expect(typeof example.example).toBe('function');
+  it('data debe ser una funcion', () => {
+    expect(typeof data).toBe("function");
   });
 
-  it('returns `example`', () => {
-    expect(example.example()).toBe('example');
+  it('data debe regresar un objeto json', () => {
+    expect(typeof data()).toBe("object");
   });
+
 });
 
+describe('describir la funcion filter', () => {
+  it('que filter sea una funcion', () => {
+    expect(typeof filterData).toBe("function");
+  });
 
-describe('filtrado', () => {
-  it('is a function', () => {
-    expect(typeof example.filtrado).toBe('function');
-    });
-
-  it('returns `mostrar`', () => {
-    expect(mostrar.mostrar()).toBe('mostrar');
+  it('filtre los datos con genero Masculino',() => {
+    //"gender": "Male"
+    let info = data();
+    let test_result = {
+      "id": 1,
+      "name": "Rick Sanchez",
+      "status": "Alive",
+      "species": "Human",
+      "type": "",
+      "gender": "Male",
+      "origin": {
+        "name": "Earth (C-137)",
+        "url": "https://rickandmortyapi.com/api/location/1"
+      }
+    };
+    expect(filterData(info, "Male")).toContain(test_result);
+  });
 });
 

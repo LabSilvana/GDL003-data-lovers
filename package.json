@@ -7,12 +7,21 @@
     "htmlhint": "htmlhint src/*.html test/*.html",
     "eslint": "eslint --ext .js src/ test/",
     "pretest": "npm run eslint --silent && npm run htmlhint --silent",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "jest": "jest --init"
   },
   "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "eslint": "^5.9.0",
     "eslint-plugin-jest": "^22.1.2",
     "htmlhint": "^0.10.1",
-    "jest": "^23.6.0"
+    "jest": "^24.8.0"
+  },
+  "transform": {
+    "\\.js$": "<rootDir>/node_modules/babel-jest"
   }
 }
