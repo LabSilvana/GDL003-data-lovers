@@ -8,15 +8,20 @@
     margin-left: 500px;
 }
 .pantallaInicio{
-    background-image: url("https://www.hdwallpaper.nu/wp-content/uploads/2018/11/rick_and_morty-2.jpg");
-    background-repeat: no-repeat;
+    background-image: url("https://66.media.tumblr.com/5474d821c8649d1f7842085507033cd0/tumblr_mgwtzd9lHs1qd29o8o1_500.gif");
     background-position: center;
+    align-self: initial;
+    position: absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
 }
 #tituloRick{
     margin-left: 450px;
 }
 .pantallaPresentacion{
-    background-image: url("http://pavbca.com/walldb/original/3/5/d/53899.jpg");
+    background-image: url("https://cdn130.picsart.com/297959039311201.gif?r480x480");
 }
 #tituloRickAndMorty{
     margin-left: 450px;
