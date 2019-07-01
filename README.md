@@ -33,9 +33,13 @@ Imagen del personaje y clasificarlo según su "sexo" para que así sea más fác
 
      Cuando tengan curiosidad de algún personaje de esta serie y quieran saber más sobre este.
 
+##Prototipado de baja fidelidad
+
+
+
 ##Prototipado de alta fidelidad
 
-https://marvelapp.com/project/4140892/screen/58405716
+https://marvelapp.com/project/4140892/screen/58background-color:transparent;405716
 
 ## Checklist
 
