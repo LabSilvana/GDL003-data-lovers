@@ -34,5 +34,5 @@ describe('describir la funcion filter', () => {
     };
     expect(filterData(info, "Male")).toContain(test_result);
   });
-});
-
+})
+;

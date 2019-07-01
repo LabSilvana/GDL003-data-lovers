@@ -35,6 +35,8 @@ y la interfaz construida [aquí](https://app.talento.laboratoria.la/profile/HFOo
 
 ## Resumen del proyecto
 
+//En esta pagina web se puede visualizar un conjunto de datos sobre alguno 
+de los personajes de la serie Rick and Morty.//
 En este proyecto **construirás una _página web_ para visualizar un
 _conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
 necesita.
