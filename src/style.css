@@ -7,6 +7,15 @@
     border: none;
     margin-left: 500px;
 }
+#boton_personajes{
+    background-color:transparent;
+    background-image: url("http://i.imgur.com/dJgdzCd.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    border: none;
+    margin-left: 500px;
+}
 .pantallaInicio{
     background-image: url("https://66.media.tumblr.com/5474d821c8649d1f7842085507033cd0/tumblr_mgwtzd9lHs1qd29o8o1_500.gif");
     background-attachment: fixed;
