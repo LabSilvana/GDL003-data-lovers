@@ -1,0 +1,36 @@
+#boton_agujerito{
+    background-color:transparent;
+    background-image: url("https://media2.giphy.com/media/i2tLw5ZyikSFdkeGHT/giphy.gif");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    border: none;
+    margin-left: 500px;
+}
+.pantallaInicio{
+    background-image: url("https://66.media.tumblr.com/5474d821c8649d1f7842085507033cd0/tumblr_mgwtzd9lHs1qd29o8o1_500.gif");
+    background-position: center;
+    align-self: initial;
+    position: absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+}
+#tituloRick{
+    margin-left: 450px;
+}
+.pantallaPresentacion{
+    background-image: url("https://cdn130.picsart.com/297959039311201.gif?r480x480");
+}
+#tituloRickAndMorty{
+    margin-left: 450px;
+}
+#introduccion{
+    color:white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Press Start 2P', cursive;
+
+}
+

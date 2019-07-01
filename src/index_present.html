@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Knewave|Press+Start+2P&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <title>Data Lovers</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-      <h1>Rick & Morty</h1>
-      <p>Rick es un brillante científico un tanto borracho que secuestra a su irritable nieto adolescente 
-         Morty para vivir aventuras en otros mundos y en dimensiones alternativas. 
-         Creado por:Dan Harmon, Justin Roiland</p>
+
+  <body class="pantallaPresentacion">
+      <img id = "pepinilloRick" src="https://ui-ex.com/images/pickle-transparent-rick-and-morty-5.gif">
+      <img id = "tituloRickAndMorty" src="https://upload.wikimedia.org/wikipedia/en/c/c8/Rick_and_Morty_logo.png">
+      <div id = "introduccion">
+      <p>Rick es un brillante científico un tanto borracho <br>
+        que secuestra a su irritable nieto adolescente <br>
+         Morty para vivir aventuras en otros mundos y <br>
+         en dimensiones alternativas. <br>
+         Creado por:Dan Harmon, Justin Roiland <br></p>
+        </div>
+
           
+
     <div id="root"></div>
     <div class="container"></div>
     <div class="selection"></div>
-    <button class="botonesPersonajes" id="mostrarPersonajes">Personajees</button>
+    <a href="index_character.html"><input type="button" value="Personajes"></a>
     <script src="data.js"></script>
     <script src="./data/rickandmorty/rickandmorty.js"></script>
     <script type="module" src="main.js"></script>

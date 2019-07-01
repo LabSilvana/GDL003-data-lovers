@@ -26,3 +26,10 @@ const computeStats = (data) => {
 
 export { data, sortBY, filterData, computeStats };
 
+function ocultarBoton() {
+  var x = document.getElementById('boton_agujerito');
+  if (x.style.visibility === 'hidden') {
+  } else {
+    x.style.visibility = 'hidden';
+  }
+}
