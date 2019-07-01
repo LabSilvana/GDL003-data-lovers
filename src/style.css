@@ -22,9 +22,18 @@
 }
 .pantallaPresentacion{
     background-image: url("https://cdn130.picsart.com/297959039311201.gif?r480x480");
+    text-align: center;
+    
+}
+#pepinilloRick{
+    width: 100px;
+    float: right;
+    margin-right: 70px;
+    margin-top: 70px;
 }
 #tituloRickAndMorty{
-    margin-left: 450px;
+    margin-left: 70px;
+   
 }
 #introduccion{
     color:white;
@@ -34,3 +43,6 @@
 
 }
 
+.pantallaCharacter{
+    background-image: url(https://4.bp.blogspot.com/-CVR6F41Drzw/WeSVuM-FsZI/AAAAAAAAFyo/XFIi6dWFCZM1wWHOalOH0jobqMFrfSAwgCLcBGAs/s1600/1.jpg)
+}
