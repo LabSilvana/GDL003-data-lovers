@@ -1,6 +1,15 @@
-import { filterData } from './data.js';
-import RICKANDMORTY  from './data/rickandmorty/rickandmorty.js';
+import { data } from './data.js';
+let info_html = document.getElementById("character_list")
+let info = data();
+//console.log(info);
+//let character = info[0];
+//console.log(character.name);
+info.forEach(function(character){
+    //console.log(character.name);
 
-let test = filterData(RICKANDMORTY.results, "Male");
+    info_html.innerHTML += `<p>${character.name}</p>`;
 
-console.table(test);
+
+
+});
+
