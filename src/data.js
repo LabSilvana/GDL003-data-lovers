@@ -24,4 +24,9 @@ const computeStats = (data) => {
 };
 
 
+<<<<<<< HEAD
 export { data, sortBY, filterData, computeStats };
+=======
+export { data, sortBY, filterData, computeStats }
+;
+>>>>>>> 8a0c540b829ec38c6ee29ab5e779b9abae9facae
