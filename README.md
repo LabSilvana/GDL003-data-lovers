@@ -3,9 +3,8 @@
 ## Índice
 
 - [HISTORIA DE USUARIO](#Usuario)
-- [Prototipado de baja fidelidad](#prototipo_baja)
-- [Prototipado de alta fidelidad](#prototipo_alta)
-- [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
+- [Prototipado de baja fidelidad](#prototipado_baja)
+- [Prototipado de alta fidelidad](#prototipado_alta)
 - [Checklist](#checklist)
 
 ---
@@ -26,7 +25,7 @@
 
 - **¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?**
 
-Imagen del personaje y clasificarlo según su "sexo" para que así sea más fácil para el usuario buscar y visualizar que precisamente es ese el ersonaje que esta buscando,.
+Imagen del personaje y clasificarlo según su "sexo" para que así sea más fácil para el usuario buscar y visualizar que precisamente es ese el personaje que esta buscando,.
 
     
 - **¿Cuándo utilizan o utilizarían el producto?**
@@ -35,7 +34,7 @@ Imagen del personaje y clasificarlo según su "sexo" para que así sea más fác
 
 ##Prototipado de baja fidelidad
 
-
+https://files.slack.com/files-pri/T0NNB6T0R-FL3Q7QJMV/image.png
 
 ##Prototipado de alta fidelidad
 

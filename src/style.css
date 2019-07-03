@@ -58,7 +58,8 @@
     font-family: 'Press Start 2P', cursive;
 
 }
-.pantallaPersonajes {
+
+.pantallaCharacter{
     background-image: url("https://data.whicdn.com/images/280301626/original.gif");
     background-attachment: fixed;
     background-position: center center;
@@ -69,8 +70,4 @@
     width:100%;
     top:0px;
     left:0px;
-}
-
-.pantallaCharacter{
-    background-image: url(https://4.bp.blogspot.com/-CVR6F41Drzw/WeSVuM-FsZI/AAAAAAAAFyo/XFIi6dWFCZM1wWHOalOH0jobqMFrfSAwgCLcBGAs/s1600/1.jpg)
 }
