@@ -1,9 +1,9 @@
-import { data, filterData } from './../src/data';
+const test = require ('./../src/data');
 
 describe('describir el funcionamiento de la funcion data', () => {
   
   it('data debe ser una funcion', () => {
-    expect(typeof data).toBe("function");
+    expect(typeof test.data).toBe("function");
   });
 
   it('data debe regresar un objeto json', () => {

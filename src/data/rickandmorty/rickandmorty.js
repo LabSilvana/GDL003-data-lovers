@@ -9376,4 +9376,4 @@ const RICKANDMORTY = {
   }]
 }
 
-export default RICKANDMORTY;
+//export default RICKANDMORTY;

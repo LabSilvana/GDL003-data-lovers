@@ -1,5 +1,5 @@
-import RICKANDMORTY  from './data/rickandmorty/rickandmorty.js';
-
+//import RICKANDMORTY  from './data/rickandmorty/rickandmorty.js';
+//const info = require('./data/rickandmorty/rickandmorty.json');
 // esta es una función de ejemplo
 // puedes ver como agregamos la función a nuestro objeto global window
 
@@ -25,5 +25,5 @@ const computeStats = (data) => {
 
 
 
-export { data, sortBY, filterData, computeStats };
+//export { data, sortBY, filterData, computeStats };
 
