@@ -12,40 +12,40 @@ let button3= document.getElementById("Indefinido");
 let button_character = document.getElementById("boton_personajes");
 
 button_character.addEventListener('click', () => {
-    console.log("evento");
-    info.forEach(function(character) {
-        console.log(character.name);
-      
-    }); 
+   console.log("evento");
+   info.forEach(function(character) {
+       console.log(character.name);
+
+   });
 });
 
 button.addEventListener('click',() => {
-    let result = filterData(info,"Female");
-    info_html.innerHTML = "";
-    result.forEach(function(character) {
-        console.log(character.name);
-        info_html.innerHTML += print_character(character);
-    }); 
+   let result = filterData(info,"Female");
+   info_html.innerHTML = "";
+   result.forEach(function(character) {
+       console.log(character.name);
+       info_html.innerHTML += print_character(character);
+   });
 
 });
 
 button2.addEventListener('click',() => {
-    let result = filterData(info,"Male");
-    info_html.innerHTML = "";
-    result.forEach(function(character) {
-        console.log(character.name);
-        info_html.innerHTML += print_character(character);
-    }); 
+   let result = filterData(info,"Male");
+   info_html.innerHTML = "";
+   result.forEach(function(character) {
+       console.log(character.name);
+       info_html.innerHTML += print_character(character);
+   });
 
 });
 
 button3.addEventListener('click',() => {
-    let result = filterData(info,"unknown");
-    info_html.innerHTML = "";
-    result.forEach(function(character) {
-        console.log(character.name);
-        info_html.innerHTML += print_character(character);
-    }); 
+   let result = filterData(info,"unknown");
+   info_html.innerHTML = "";
+   result.forEach(function(character) {
+       console.log(character.name);
+       info_html.innerHTML += print_character(character);
+   });
 
 });
 
@@ -65,3 +65,4 @@ function print_character(character) {
             '</div>';
     
 }
+
