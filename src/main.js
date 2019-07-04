@@ -55,12 +55,12 @@ function print_character(character) {
     return '<div class="card">' +
                 `<img src="${character.image}">` +
                 '<div class="container">' +
-                    `<h4>${character.name}</h4>` +
-                    `<p>${character.status}</p>` +
-                    `<p>${character.species}</p>` +
-                    `<p>${character.gender}</p>` +
-                    `<p>${character.origin.name}</p>` +
-                    `<p>${character.location.name}</p>` +
+                    `<h4>Name: ${character.name}</h4>` +
+                    `<p>Status: ${character.status}</p>` +
+                    `<p>Species: ${character.species}</p>` +
+                    `<p>Gender: ${character.gender}</p>` +
+                    `<p>Origin: ${character.origin.name}</p>` +
+                    `<p>Location: ${character.location.name}</p>` +
                 '</div>' +
             '</div>';
     
