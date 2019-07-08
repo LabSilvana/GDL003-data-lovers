@@ -81,9 +81,8 @@
 }
 
 h4{
-    text-shadow: 0 0 3px rgb(180, 50, 174), 0 0 5px rgb(212, 205, 104);
-    font-family: 'Merienda One', cursive;
-
+  color: yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 }
 #Femenino{
@@ -146,11 +145,12 @@ h4{
 
 .card {
         /* Add shadows to create the "card" effect */
-        box-shadow: 0 4px 8px 0 rgb(163, 250, 2);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         font-family: 'Press Start 2P', cursive;
         font-size: 12px;
         margin: 15px;
+        display: flex;
         background-image: linear-gradient(to right, rgba(248, 113, 113, 0.685),rgba(255, 194, 80, 0.548),rgba(250, 250, 0, 0.507),rgba(88, 214, 88, 0.432),rgba(5, 167, 231, 0.473),rgba(76, 0, 130, 0.329));
       }
       
