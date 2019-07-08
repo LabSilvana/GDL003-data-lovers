@@ -7,6 +7,8 @@
     height: 300px;
     border: none;
     margin-left: 500px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
 }
 #boton_personajes{
     background-color:transparent;
@@ -144,7 +146,7 @@ h4{
 
 .card {
         /* Add shadows to create the "card" effect */
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        box-shadow: 0 4px 8px 0 rgb(163, 250, 2);
         transition: 0.3s;
         font-family: 'Press Start 2P', cursive;
         font-size: 12px;
@@ -159,18 +161,28 @@ h4{
       /* Add some padding inside the card container */
       .container {
         padding: 2px 16px;
-        background-color: rgb(175, 248, 230);
         border: 5px solid transparent;
         padding: 10px;
         
       }
 
-     
 #character_list {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+        
        
       }
       
+
+#boton_Regresar {
+    position: fixed;
+    width: 10%;
+    bottom: 10px;
+    border: 5px solid rgba(7, 192, 167, 0.356);
+    font-family: 'Press Start 2P', cursive;
+    background: rgba(248, 232, 0, 0.37);
+  } 
+  
+
