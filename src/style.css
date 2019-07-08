@@ -7,6 +7,8 @@
     height: 300px;
     border: none;
     margin-left: 500px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
 }
 #boton_personajes{
     background-color:transparent;
@@ -163,12 +165,24 @@ h4{
         padding: 10px;
         
       }
-     
+
 #character_list {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+        
        
       }
       
+
+#boton_Regresar {
+    position: fixed;
+    width: 10%;
+    bottom: 10px;
+    border: 5px solid rgba(7, 192, 167, 0.356);
+    font-family: 'Press Start 2P', cursive;
+    background: rgba(248, 232, 0, 0.37);
+  } 
+  
+

@@ -65,4 +65,7 @@ function print_character(character) {
             '</div>';
     
 }
-
+let btnRegresar = document.getElementById("boton_Regresar");
+btnRegresar.addEventListener('click',() => {
+ location.hash = "#introduccion";
+});
